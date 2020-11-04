@@ -11,7 +11,7 @@ class LoginPageLocators():
     REGISTER_FORM_LINK = (By.ID, "register-form")
 
 class CartPageLocators():
-    SUBMIT_BUTTON = (By.XPATH, "button.btn-add-to-basket")
+    SUBMIT_BUTTON = (By.CSS_SELECTOR, "button.btn-add-to-basket")
     ALERT_TEXT = (By.CLASS_NAME, "alertinner")
     PRODUCT_NAME = (By.CSS_SELECTOR, "div.product_main h1")
     MESSAGE_BASKET_TOTAL = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
